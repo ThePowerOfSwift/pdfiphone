@@ -46,10 +46,6 @@
 
 //#include <windows.h>
 
-//YOur project must also include zdll.lib (ZLIB) as a dependency.
-//ZLIB can be freely downloaded from the internet, www.zlib.org
-//Use 4 byte struct alignment in your project!
-
 #include "zlib.h"
 
 void ZeroMemory(void * buffer, long sizeOf)
